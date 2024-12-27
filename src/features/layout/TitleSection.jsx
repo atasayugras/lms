@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import { useNavigate } from "react-router-dom";
 
 function TitleSection(props) {
-  const { PageTitle } = props;
+  const { pageTitle } = props;
   const navigate = useNavigate();
 
   return (
@@ -29,7 +30,7 @@ function TitleSection(props) {
           />
         </button>
       )}
-      <h1 className="text-2xl font-bold">{PageTitle}</h1>
+      <h1 className="text-2xl font-bold">{pageTitle}</h1>
     </div>
   );
 }

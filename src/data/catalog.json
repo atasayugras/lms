@@ -1,15 +1,303 @@
 [
-    {
-      "thumbnail": "https://picsum.photos/200",
-      "title": "React Basics",
-      "id": "1",
-      "creationDate": "2023-01-01"
-    },
-    {
-      "thumbnail": "https://picsum.photos/seed/picsum/200/300",
-      "title": "Intermediate React",
-      "id": "2",
-      "creationDate": "2023-02-15"
-    }
-  ]
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "React Fundamentals",
+    "id": "1",
+    "creationDate": "2023-01-15"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Advanced JavaScript",
+    "id": "2",
+    "creationDate": "2023-02-20"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Node.js Backend",
+    "id": "3",
+    "creationDate": "2023-03-10"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Vue.js Essentials",
+    "id": "4",
+    "creationDate": "2023-04-05"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Python for Beginners",
+    "id": "5",
+    "creationDate": "2023-05-12"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Data Structures",
+    "id": "6",
+    "creationDate": "2023-06-18"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Web Security",
+    "id": "7",
+    "creationDate": "2023-07-22"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "GraphQL Masterclass",
+    "id": "8",
+    "creationDate": "2023-08-30"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Docker Basics",
+    "id": "9",
+    "creationDate": "2023-09-14"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "TypeScript Advanced",
+    "id": "10",
+    "creationDate": "2023-10-05"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "AWS Cloud Computing",
+    "id": "11",
+    "creationDate": "2023-11-20"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "MongoDB Essentials",
+    "id": "12",
+    "creationDate": "2023-12-15"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Angular Framework",
+    "id": "13",
+    "creationDate": "2023-01-25"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Redux State Management",
+    "id": "14",
+    "creationDate": "2023-02-28"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "SQL Database Design",
+    "id": "15",
+    "creationDate": "2023-03-15"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Git Version Control",
+    "id": "16",
+    "creationDate": "2023-04-22"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "React Native Mobile",
+    "id": "17",
+    "creationDate": "2023-05-30"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Kubernetes Container Orchestration",
+    "id": "18",
+    "creationDate": "2023-06-10"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Machine Learning Basics",
+    "id": "19",
+    "creationDate": "2023-07-15"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "CSS Grid & Flexbox",
+    "id": "20",
+    "creationDate": "2023-08-20"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Express.js Backend",
+    "id": "21",
+    "creationDate": "2023-09-25"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "UI/UX Design Principles",
+    "id": "22",
+    "creationDate": "2023-10-30"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "REST API Development",
+    "id": "23",
+    "creationDate": "2023-11-05"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Next.js Framework",
+    "id": "24",
+    "creationDate": "2023-12-10"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Java Programming",
+    "id": "25",
+    "creationDate": "2023-01-05"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Spring Boot Framework",
+    "id": "26",
+    "creationDate": "2023-02-15"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "DevOps Practices",
+    "id": "27",
+    "creationDate": "2023-03-20"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Microservices Architecture",
+    "id": "28",
+    "creationDate": "2023-04-25"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Flutter Mobile Development",
+    "id": "29",
+    "creationDate": "2023-05-15"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "C# Programming",
+    "id": "30",
+    "creationDate": "2023-06-20"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": ".NET Core Development",
+    "id": "31",
+    "creationDate": "2023-07-25"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Software Testing",
+    "id": "32",
+    "creationDate": "2023-08-10"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Ruby on Rails",
+    "id": "33",
+    "creationDate": "2023-09-15"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Django Framework",
+    "id": "34",
+    "creationDate": "2023-10-20"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Redis Caching",
+    "id": "35",
+    "creationDate": "2023-11-25"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Elasticsearch",
+    "id": "36",
+    "creationDate": "2023-12-30"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Swift iOS Development",
+    "id": "37",
+    "creationDate": "2023-01-10"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Kotlin Android",
+    "id": "38",
+    "creationDate": "2023-02-05"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "RxJS Reactive Programming",
+    "id": "39",
+    "creationDate": "2023-03-25"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Laravel PHP Framework",
+    "id": "40",
+    "creationDate": "2023-04-15"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Rust Programming",
+    "id": "41",
+    "creationDate": "2023-05-20"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Go Language",
+    "id": "42",
+    "creationDate": "2023-06-25"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Scala Programming",
+    "id": "43",
+    "creationDate": "2023-07-30"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Unity Game Development",
+    "id": "44",
+    "creationDate": "2023-08-15"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "TensorFlow Deep Learning",
+    "id": "45",
+    "creationDate": "2023-09-20"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Blockchain Development",
+    "id": "46",
+    "creationDate": "2023-10-25"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Cybersecurity Fundamentals",
+    "id": "47",
+    "creationDate": "2023-11-30"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Cloud Architecture",
+    "id": "48",
+    "creationDate": "2023-12-05"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "Big Data Analytics",
+    "id": "49",
+    "creationDate": "2023-12-20"
+  },
+  {
+    "thumbnail": "https://cdn.pixabay.com/photo/2023/12/09/21/55/ai-generated-8440241_1280.jpg",
+    "title": "System Design",
+    "id": "50",
+    "creationDate": "2023-12-25"
+  }
+]
   

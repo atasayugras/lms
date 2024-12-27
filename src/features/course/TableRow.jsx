@@ -1,18 +1,21 @@
-function CourseTableRow(props) {
+/* eslint-disable react/prop-types */
+
+function TableRow(props) {
   const { onViewCourse, course } = props;
+  const { id, thumbnail, title, creationDate } = course;
 
   return (
-    <tr key={course.id}>
+    <tr key={id}>
       <td>
         <img
-          src={course.thumbnail}
-          alt={course.title}
+          src={thumbnail}
+          alt={title}
           style={{ width: "50px", height: "50px" }}
         />
       </td>
-      <td>{course.title}</td>
-      <td>{course.id}</td>
-      <td>{course.creationDate}</td>
+      <td>{title}</td>
+      <td>{id}</td>
+      <td>{creationDate}</td>
       <td>
         <button
           style={{
@@ -33,4 +36,4 @@ function CourseTableRow(props) {
   );
 }
 
-export default CourseTableRow;
+export default TableRow;

@@ -1,6 +1,7 @@
-import CourseTableRow from "./CourseTableRow.jsx";
+/* eslint-disable react/prop-types */
+import TableRow from "./TableRow.jsx";
 
-const CourseTable = (props) => {
+const Table = (props) => {
   const { onViewCourse, courses } = props;
   return (
     <table
@@ -19,7 +20,7 @@ const CourseTable = (props) => {
       </thead>
       <tbody>
         {courses.map((course) => (
-          <CourseTableRow
+          <TableRow
             key={course.id}
             onViewCourse={onViewCourse}
             course={course}
@@ -30,4 +31,4 @@ const CourseTable = (props) => {
   );
 };
 
-export default CourseTable;
+export default Table;

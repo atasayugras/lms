@@ -1,5 +1,4 @@
 import user from "../../data/user.json";
-import Layout from "../layout/Layout.jsx";
 import Spinner from "../layout/Spinner.jsx";
 import useLoading from "../layout/useLoading.jsx";
 
@@ -12,7 +11,6 @@ const UserProfile = () => {
 
   return (
     <>
-      <Layout PageTitle={"User profile"} />
       <div className="flex items-center px-8">
         <img
           src={user.avatar}

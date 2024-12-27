@@ -1,11 +1,9 @@
-import { useNavigate } from "react-router-dom";
-import Layout from "../layout/Layout.jsx";
 import useCourseDetailResponse from "./useCourseDetail.jsx";
 import Spinner from "../layout/Spinner.jsx";
 
 const CourseDetail = () => {
-  const navigate = useNavigate();
   const { course, isLoading } = useCourseDetailResponse();
+  const { id, thumbnail, title, creationDate } = course;
 
   if (isLoading) {
     return <Spinner />;
@@ -13,20 +11,19 @@ const CourseDetail = () => {
 
   return (
     <>
-      <Layout PageTitle={course.title} />
       <div className="flex items-center px-8">
         <img
-          src={course.thumbnail}
-          alt={course.title}
+          src={thumbnail}
+          alt={title}
           className="rounded-md"
           style={{ width: "220px", height: "220px", marginRight: "16px" }}
         />
         <div>
           <p>
-            <strong>ID:</strong> {course.id}
+            <strong>ID:</strong> {id}
           </p>
           <p>
-            <strong>Creation Date:</strong> {course.creationDate}
+            <strong>Creation Date:</strong> {creationDate}
           </p>
           <strong>About the course:</strong>
           <textarea

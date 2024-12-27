@@ -1,20 +1,24 @@
+/* eslint-disable react/prop-types */
 import Header from "./Header.jsx";
+import Sidebar from "./Sidebar.jsx";
 import TitleSection from "./TitleSection.jsx";
 import Footer from "./Footer.jsx";
-import { useLocation } from "react-router-dom";
 
 function Layout(props) {
-  const { PageTitle, children } = props;
-  const location = useLocation();
-  console.log(children);
+  const { children, pageTitle } = props;
 
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="px-8 pt-8">
-        <TitleSection PageTitle={PageTitle} />
+      <div className="flex flex-grow">
+        <Sidebar />
+        <main className="flex-grow pl-[60px] pt-[56px]">
+          <div className="px-8 pt-8">
+            <TitleSection pageTitle={pageTitle} />
+          </div>
+          <div className="w-full">{children}</div>
+        </main>
       </div>
-      <div className="flex-grow">{children}</div>
       <Footer />
     </div>
   );
