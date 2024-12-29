@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
-    <div className="w-[60px] h-[calc(100vh-56px)] bg-gray-800 relative top-[56px] overflow-y-auto">
+    <div className="w-[60px] h-[calc(100vh-56px)] bg-gray-800 relative top-[56px] z-10">
       <nav className="p-2">
         <Link
           to="/"

@@ -7,7 +7,7 @@ function Card(props) {
   return (
     <div
       onClick={() => onViewCatalogItem(catalogItem)}
-      className="rounded-lg bg-white shadow-md cursor-pointer"
+      className="rounded-lg bg-white shadow-sm cursor-pointer"
     >
       <div className="relative aspect-video w-full">
         <img

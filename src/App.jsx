@@ -11,19 +11,12 @@ const App = () => {
       <Route
         path="/"
         element={
-          <Layout pageTitle="Courses">
+          <Layout pageTitle="My courses">
             <Courses />
           </Layout>
         }
       />
-      <Route
-        path="/course/:courseId"
-        element={
-          <Layout>
-            <CourseDetail pageTitle={"Course Details"} />
-          </Layout>
-        }
-      />
+      <Route path="/course/:courseId" element={<CourseDetail />} />
       <Route
         path="/catalog"
         element={

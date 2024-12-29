@@ -1,12 +1,20 @@
-import catalog from "../../data/catalog.json";
 import { useNavigate } from "react-router-dom";
+import catalog from "../../data/catalog.json";
+import useLoading from "../layout/useLoading.jsx";
 
-function useCatalogResponse() {
+function useCatalog() {
   const navigate = useNavigate();
-  const handleViewCatalogItem = (catalog) => {
-    navigate(`/${catalog}`);
+  const isLoading = useLoading(true, 1000);
+
+  const handleViewCatalogItem = (catalogItem) => {
+    navigate(`/course/${catalogItem.id}`);
   };
-  return { catalog, handleViewCatalogItem };
+
+  return {
+    catalog,
+    handleViewCatalogItem,
+    isLoading,
+  };
 }
 
-export default useCatalogResponse;
+export default useCatalog;
