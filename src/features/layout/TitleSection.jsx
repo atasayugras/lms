@@ -14,7 +14,7 @@ function TitleSection(props) {
         marginBottom: "20px",
       }}
     >
-      {location.pathname !== "/" && (
+      {location.pathname !== "/" && location.pathname !== "/catalog" && (
         <button
           style={{
             background: "none",
