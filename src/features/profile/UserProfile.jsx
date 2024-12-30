@@ -3,7 +3,7 @@ import Spinner from "../layout/Spinner.jsx";
 import useLoading from "../layout/useLoading.jsx";
 
 const UserProfile = () => {
-  const isLoading = useLoading(true, 150);
+  const isLoading = useLoading(true, 1000);
 
   if (isLoading) {
     return <Spinner />;
