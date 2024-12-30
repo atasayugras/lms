@@ -3,15 +3,16 @@ import Card from "./Card";
 
 function CardContainer({ catalog, onViewCatalogItem }) {
   return (
-    <div className="flex flex-wrap px-3">
-      {catalog.map((catalogItem) => (
-        <div key={catalogItem.id} className="w-full sm:w-1/2 lg:w-1/3 p-3">
+    <div className="px-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {catalog.map((catalogItem) => (
           <Card
+            key={catalogItem.id}
             onViewCatalogItem={onViewCatalogItem}
             catalogItem={catalogItem}
           />
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

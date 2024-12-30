@@ -14,7 +14,7 @@ function Catalog() {
   }
 
   return (
-    <div className="px-8">
+    <>
       <CardContainer
         catalog={currentItems}
         onViewCatalogItem={handleViewCatalogItem}
@@ -24,7 +24,7 @@ function Catalog() {
         totalPages={totalPages}
         onPageChange={handlePageChange}
       />
-    </div>
+    </>
   );
 }
 
